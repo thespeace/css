@@ -1,0 +1,19 @@
+div , span, .inline{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+div { /* default : block-level*/
+    background: red;
+    display: inline-block; /*different inline, Inline levels ignore tag sizing and do not show blocks without text.*/
+}
+
+span { /*default : inline*/
+    background: blue;
+    display: block; /*like div, one line one block.*/
+}
+
+.inline {
+    background: hotpink;
+    display: inline;
+}
